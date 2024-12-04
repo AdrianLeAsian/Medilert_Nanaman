@@ -40,6 +40,7 @@ dependencies {
     
     // Add Room dependencies
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation(libs.swiperefreshlayout)
     annotationProcessor("androidx.room:room-compiler:2.6.1")
     
     // Add preference dependency if not already present

@@ -47,9 +47,9 @@ public class DashboardActivity extends BaseActivity {
 
         medicalReminderButton.setOnClickListener(v -> 
             startActivity(new Intent(this, MedicalRemindersActivity.class)));
-            
-        healthRemindersButton.setOnClickListener(v -> 
-            Toast.makeText(this, "Health Reminders clicked", Toast.LENGTH_SHORT).show());
+
+        healthRemindersButton.setOnClickListener(v ->
+                startActivity(new Intent(this, HealthNewsActivity.class)));
             
         emergencyLocatorButton.setOnClickListener(v -> 
             startActivity(new Intent(this, EmergencyLocatorActivity.class)));
